@@ -11,7 +11,7 @@ const loadPost = () => {
 
 
 const displayPost =(posts) => {
-    console.log(posts);
+    //console.log(posts);
 
 
     // for(let i=0;i<posts.length;i++){
@@ -22,6 +22,7 @@ const displayPost =(posts) => {
 
     const postContainer=document.getElementById("container-post");
     // console.log(postContainer);
+    postContainer.innerHTML=""
     // array for eachloop
     // 
     posts.forEach((post) =>{
